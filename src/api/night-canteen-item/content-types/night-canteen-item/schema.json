@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "night_canteen_items",
+  "info": {
+    "singularName": "night-canteen-item",
+    "pluralName": "night-canteen-items",
+    "displayName": "night-canteen-item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "route": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ratings": {
+      "type": "decimal",
+      "default": 3
+    }
+  }
+}

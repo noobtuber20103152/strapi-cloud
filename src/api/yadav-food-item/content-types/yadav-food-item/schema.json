@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yadav_food_items",
+  "info": {
+    "singularName": "yadav-food-item",
+    "pluralName": "yadav-food-items",
+    "displayName": "yadav-food-item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "route": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ratings": {
+      "type": "decimal",
+      "default": 3.34
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feebacks",
+  "info": {
+    "singularName": "feeback",
+    "pluralName": "feebacks",
+    "displayName": "feeback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foodName": {
+      "type": "string"
+    },
+    "foodIdentifier": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "userImg": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "text"
+    }
+  }
+}
